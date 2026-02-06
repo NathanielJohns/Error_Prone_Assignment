@@ -29,11 +29,11 @@ def create_monster():
     damage = random.choice(stats)
 
 
-    if damage == "100":
-        name = "Dragon"
-    elif damage == "75":
+    if damage == 100:
+        name = "dragon"
+    elif damage == 75:
         name = "Manticore"
-    elif damage == "50":
+    elif damage == 50:
         name = "Ogre"
     else:
         name = "Goblin"
